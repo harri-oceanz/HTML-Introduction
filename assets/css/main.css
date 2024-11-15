@@ -985,8 +985,8 @@ HEAD .slide {
 .navbar__selection {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1    rem;
-    padding: 16px 14px;
+    font-size: 1rem;
+    padding: 20px 20px 14px;
 }
 
 .navbar__selection:hover {
@@ -999,11 +999,11 @@ HEAD .slide {
     align-items: center;
     margin: 0;
 }
-
 .navbar__selection-text {
     margin: 0;
     margin-right: 4px;
     font-weight: 400;
+    font-size: 16px;
 }
 
 .navbar__search {
@@ -1476,7 +1476,10 @@ HEAD .slide {
     left: 0;
     right: 0;
 }
-
+.header__item,
+.navbar__selection-text{
+    font-family: Source Sans Pro;
+}
 .header__list {
     list-style: none;
     display: flex;
