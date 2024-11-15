@@ -555,13 +555,15 @@ button:hover{
     font-size: 12px;
     margin: 0;
 }
+.body_2-slide1 p{
+    font-size: 12px;
+}
 .body_2-slide1 img,
 .body_2-slide5 img{
-    width: auto;
+    width: 80%;
 }
 .body_2-slide2 img{
-    width: auto;
-    height: auto;
+    width: 80%;
 }
 .body_2-slide2{
     margin-top: 32px;
@@ -983,8 +985,8 @@ HEAD .slide {
 .navbar__selection {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.6rem;
-    padding: 20px 20px;
+    font-size: 1    rem;
+    padding: 16px 14px;
 }
 
 .navbar__selection:hover {
@@ -1072,19 +1074,19 @@ HEAD .slide {
 .navbar__service {
     display: flex;
     align-items: center;
-    padding: 8px 10px;
+    padding: 6px 3px;
     border-radius: 25px;
     height: 38px;
     animation: opacity 0.1s ease;
 }
 
 .navbar_right-icon {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #b48ff6;
 }
 
 .navbar_right-text {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-left: 4px;
 }
 
